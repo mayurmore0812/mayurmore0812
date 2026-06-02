@@ -65,6 +65,11 @@ Wearable device prototype for movement tracking using embedded sensors and micro
 - AIP Conference Paper: **“The Fitness Tracker Band”**
 - Research Paper: **“Sun Flora: Dual Axis Solar Tracker using 8051 in Assembly Language”**
 
+## 📈 Current Focus
+
+- Building machine learning projects for battery diagnostics and predictive maintenance
+- Developing data analytics and visualization portfolio projects
+- Documenting research-based engineering and AI projects
 
 ## 📫 Connect with Me
 

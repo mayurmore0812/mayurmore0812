@@ -126,7 +126,7 @@ These are **coauthored** publications. The battery patent is listed in my CV; I 
 |:---|:---|
 | **Philips India Limited** · Image Guided Therapy R&D apprentice/intern · Apr 2024–Jun 2025 | Battery diagnostic proof of concept, data logging, diagnostic automation, and production fault investigation |
 | **Nitya Innovations LLP** · Data Analyst Intern · Jan–Jun 2024 | EV battery SOH data preparation, feature engineering, and XGBoost/LightGBM modelling |
-| **Bunnyfied Labs Pvt. Ltd.** · Junior Data Analyst & ML Developer · Apr 2023–Jan 2024 | Résumé-to-job matching prototype, LLM prompt evaluation, Power BI dashboards, and reporting automation |
+| **Bunnyfied Labs Pvt. Ltd.** · Junior Data Analyst & ML Developer · Apr 2023–Jan 2024 | Résumé-to-job matching prototype, Power BI dashboards, and reporting automation |
 
 <details>
 <summary><strong>Education and tools</strong></summary>

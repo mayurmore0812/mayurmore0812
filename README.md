@@ -1,153 +1,201 @@
-<h1 align="center">Hi, I'm Mayur More 👋</h1>
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="Mayur More — Applied AI, data science and energy analytics" width="100%" />
+</p>
 
-<p align="center"><strong>Applied AI · Data Science · Battery Diagnostics · Engineering</strong></p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/mayurmore0812"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=flat-square" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:mayurmore0812@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-147D73?style=flat-square" alt="Email Mayur" /></a>
+  <img src="https://img.shields.io/badge/Based_in-Berlin-E5B567?style=flat-square" alt="Based in Berlin, Germany" />
+</p>
 
-Based in Berlin, I bring an electronics and healthcare R&D background to machine learning, analytics, and practical engineering problems. I am studying **MSc Data Science, AI & Digital Business** and **MSc International Business Management** at GISMA University of Applied Sciences.
+<p align="center">
+  <a href="#selected-projects">Projects</a> &nbsp; / &nbsp;
+  <a href="#research">Research</a> &nbsp; / &nbsp;
+  <a href="#experience">Experience</a> &nbsp; / &nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
+  <a href="#connect">Connect</a>
+</p>
 
-[Projects](#projects) · [Research](#research--publications) · [Experience](#experience) · [Connect](#connect)
+### Hi, I'm Mayur.
+
+I work at the intersection of **data science, applied AI and engineering**. My projects span battery-health prediction, computer vision, document processing and data visualisation, with experience in healthcare R&D, analytics and freelance ML development.
+
+Based in **Berlin**, I am pursuing an **M.Sc. in Data Science, AI & Digital Business and an M.Sc. in International Business Management** at GISMA. My background is in Electronics & Telecommunication Engineering, and I enjoy connecting physical systems, data and business questions.
+
+**What interests me:** battery and energy analytics · applied machine learning · business intelligence · process automation.
 
 ---
 
-### What I work on
+## Selected projects
 
-**Applied machine learning** for battery health, images, text, and tabular data · **Data storytelling** through analysis and interactive reports · **Engineering systems** that connect sensors, data, and useful decisions
+Explore a repository for its methods, documentation and project-specific limitations.
 
-| From industry | From research | From recent coursework |
-|:---|:---|:---|
-| Battery diagnostics and data logging in healthcare R&D | Coauthored work on battery SOH, a fitness band, and solar tracking | Five projects spanning regression, computer vision, NLP, road safety, and FDA recall analysis |
-
-## Projects
-
-### 🔋 Public project
-
-**[EV lithium-ion battery State of Health estimation](https://github.com/mayurmore0812/ev-lithium-ion-battery-soh-estimation)**  
-Research-style documentation of a BTech battery SOH project and related LightGBM publication. It covers charging-data preparation, feature engineering, model evaluation, and the XGBoost/LightGBM approach. **The public repository documents the work; its implementation code and notebooks are private.**
-
-### 🧠 Recent data science projects
-
-<sub>These public repositories document the projects while their notebooks, data, and other files are prepared for release.</sub>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 / Battery health</h3>
+<p><b>EV lithium-ion battery SOH estimation</b></p>
+<p>Machine learning for battery State of Health, connecting charging data, feature engineering and gradient-boosted models.</p>
+<p><code>Python</code> <code>LightGBM</code> <code>XGBoost</code></p>
+<p><em>Research documentation · implementation private</em></p>
+<a href="https://github.com/mayurmore0812/ev-lithium-ion-battery-soh-estimation">Explore the research →</a>
+</td>
+<td width="50%" valign="top">
+<h3>02 / Food safety analytics</h3>
+<p><b>FDA food recall analysis</b></p>
+<p>Explore recall patterns, classifications and reporting trends through question-led analysis and visual storytelling.</p>
+<p><code>Python</code> <code>pandas</code> <code>Plotly</code></p>
+<p><em>Historical data analysis · notebook and chart explanations</em></p>
+<a href="https://github.com/mayurmore0812/fda-food-recall-analysis">Explore the analysis →</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>03 / Transport analytics</h3>
+<p><b>Great Britain road accident severity</b></p>
+<p>Exploratory analysis of recorded accidents from 2005–2015, examining severity alongside road, environmental and temporal conditions.</p>
+<p><code>Python</code> <code>pandas</code> <code>EDA</code></p>
+<p><em>Descriptive associations in recorded accidents</em></p>
+<a href="https://github.com/mayurmore0812/gb-road-accident-severity-analysis">Explore the patterns →</a>
+</td>
+<td width="50%" valign="top">
+<h3>04 / Computer vision</h3>
+<p><b>PCB component placement classification</b></p>
+<p>Transfer learning with MobileNetV2 to classify PCB component placement images and examine classification errors.</p>
+<p><code>TensorFlow</code> <code>Keras</code> <code>MobileNetV2</code></p>
+<p><em>Prototype · limited dataset and evaluation scope</em></p>
+<a href="https://github.com/mayurmore0812/pcb-placement-classification">Explore the model →</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>05 / Predictive modelling</h3>
+<p><b>NYC taxi trip duration</b></p>
+<p>Trip-duration regression using temporal and geospatial features, including distance, bearing and location clusters.</p>
+<p><code>scikit-learn</code> <code>Feature engineering</code> <code>Regression</code></p>
+<p><em>Notebook study · model comparison and limitations</em></p>
+<a href="https://github.com/mayurmore0812/nyc-taxi-trip-duration">Explore the workflow →</a>
+</td>
+<td width="50%" valign="top">
+<h3>06 / Natural language processing</h3>
+<p><b>PDF context compression</b></p>
+<p>A document-processing approach combining PDF-to-Markdown conversion, sentence selection and BART summarisation for shorter context.</p>
+<p><code>PyTorch</code> <code>Hugging Face</code> <code>BART</code></p>
+<p><em>Evaluation in progress · documentation available</em></p>
+<a href="https://github.com/mayurmore0812/pdf-context-compression">Explore the evaluation plan →</a>
+</td>
+</tr>
+</table>
 
 <details>
-<summary><strong>🚕 NYC taxi trip duration prediction · tabular machine learning</strong></summary>
+<summary><b>How these projects connect</b></summary>
 
-Built a regression workflow with trip-time, distance, bearing, airport, and location-zone features. Compared Ridge, Random Forest, and histogram gradient boosting models, with validation-based selection and duration-group error analysis. The project uses the labelled NYC Taxi Trip Duration competition data.
+- **Engineering data → modelling:** battery health and taxi duration connect feature design with prediction.
+- **Images → classification:** PCB inspection explores transfer learning and the limits of a small dataset.
+- **Records → explanations:** FDA recalls and road accidents focus on readable analysis and careful interpretation.
+- **Documents → shorter context:** PDF compression explores the balance between brevity and information retention; evaluation is ongoing.
 
-<em>Python · pandas · scikit-learn · geospatial feature engineering</em>
+</details>
 
-**Repository:** [View project on GitHub ↗](https://github.com/mayurmore0812/nyc-taxi-trip-duration)
+## Research
+
+My coauthored work connects machine learning, embedded systems and energy applications.
+
+| Publication | Focus | Read |
+| :--- | :--- | :--- |
+| **EV Lithium-Ion Battery SOH Estimation based on LightGBM Model** · Springer, 2025 | Battery-health estimation from charging data using LightGBM | [Paper ↗](https://doi.org/10.1007/978-981-97-8160-7_6) |
+| **The Fitness Tracker Band** · AIP, 2025 | Embedded activity tracking with an ESP controller and Firebase integration | [Paper ↗](https://doi.org/10.1063/5.0291757) |
+| **Sun Flora: Dual Axis Solar Tracker using 8051 in Assembly Language** · IRJMETS, 2023 | Light-sensing, motor control and an assembly-language tracking system | [Paper ↗](https://doi.org/10.56726/IRJMETS46906) |
+
+<details>
+<summary><b>Inside the fitness tracker project — my contribution</b></summary>
+
+I worked on problem analysis, project planning, hardware selection and the device's algorithmic logic. I developed the ESP-based fitness-band device and integrated the hardware with Firebase for real-time data transmission. The project was a team effort, with collaborators contributing the Flutter app, enclosure, data collection, testing and documentation.
 
 </details>
 
 <details>
-<summary><strong>🛣️ Great Britain road accident severity · exploratory analysis</strong></summary>
+<summary><b>Battery-health patent</b></summary>
 
-Analysed about **1.78 million recorded accidents from 2005–2015**, joining accident, vehicle, and casualty data at the correct level to avoid double counting. Compared accident volume with the share of recorded cases classified as serious or fatal, then turned ten questions into charts and road-safety recommendations.
-
-<em>Python · pandas · seaborn · data visualisation</em>
-
-**Repository:** [View project on GitHub ↗](https://github.com/mayurmore0812/gb-road-accident-severity-analysis)
+**A System and Method for Calculation of State of Health of Li-Ion Battery**  
+South Africa · Patent **2024/03681** · 2024  
+B.Tech project outcome in battery-health diagnostics.
 
 </details>
-
-<details>
-<summary><strong>🔍 PCB component placement inspection · computer vision</strong></summary>
-
-Fine-tuned an ImageNet-pretrained MobileNetV2 to classify acceptable versus incorrect component placement. The saved experiment reports **0.853 balanced accuracy on 34 held-out images** and detects **15 of 17 incorrect placements**. The evaluation uses new images of board designs represented during training; the system is an inspection-support prototype.
-
-<em>TensorFlow/Keras · transfer learning · image preprocessing</em>
-
-**Repository:** [View project on GitHub ↗](https://github.com/mayurmore0812/pcb-placement-classification)
-
-</details>
-
-<details>
-<summary><strong>📄 PDF context compression · NLP and summarisation</strong></summary>
-
-Built a PDF-to-Markdown pipeline with section detection, sentence selection, source extracts, and a pretrained BART rewriter. Compared TF-IDF with logistic regression against frozen sentence embeddings with a bidirectional GRU, using ranking, ROUGE, calibration, and token reduction to assess different parts of the system.
-
-<em>PyTorch · Hugging Face · scikit-learn · PDF processing</em>
-
-**Repository:** [View project on GitHub ↗](https://github.com/mayurmore0812/pdf-context-compression)
-
-</details>
-
-<details>
-<summary><strong>🍽️ FDA food recall review · interactive data storytelling</strong></summary>
-
-Reconciled **22,840 product records into 5,875 distinct recall events** and built ten management-focused insights on workload, severity, issue categories, firm locations, initial notification methods, and recorded status. A separate interactive Plotly edition adds filters and a geographic view. The data is a historical snapshot, so its counts do not describe current recall status or consumer risk.
-
-<em>pandas · Plotly · data reconciliation · dashboard design</em>
-
-**Repository:** [View project on GitHub ↗](https://github.com/mayurmore0812/fda-food-recall-analysis)
-
-</details>
-
-### ⚙️ Earlier engineering and team projects
-
-<details>
-<summary><strong>Battery diagnostics, IoT, wearables, and solar tracking</strong></summary>
-
-- **Battery health diagnostic prototype:** At Philips India, developed a Python-based proof of concept for Energy Storage Unit diagnostics, with structured data logging and analysis to support service decisions.
-- **IoT lab automation:** Built a connected lab-system concept using microcontrollers, Raspberry Pi, and Firebase, described in my earlier profile.
-- **Fitness tracking band:** Co-developed a wearable that tracks steps, jumps, and kicks. I worked on the ESP-based hardware, device logic, and Firebase connection; teammates contributed the Flutter app, enclosure, and data collection.
-- **Sun Flora solar tracker:** Coauthored an 8051 assembly-language dual-axis solar-tracking project using light sensors, motor control, and an LCD.
-
-</details>
-
-### 🧩 Recent challenges
-
-- **Huawei TechArena 2026, Digital Power (CellScale):** Worked on LFP battery SOH trajectories and end-of-life prediction from cycling time series; qualified for the Nuremberg on-site ceremony.
-- **Huawei TechArena 2026, 3D-Matters:** Team entry on anatomical ear landmarks from 3D head scans, using a DiffusionNet ensemble and anatomical post-processing.
-
-<details>
-<summary><strong>Earlier recognition</strong></summary>
-
-- **Aavishkar 2023–24:** Qualified for the University of Mumbai final round, as listed in my CV.
-- **Persona Fest 2020:** Second place, as listed in my CV.
-- **PROTECH 2020:** First place, as listed in my CV.
-
-</details>
-
-## Research & publications
-
-These are **coauthored** publications. The battery patent is listed in my CV; I have not linked a registry record here.
-
-| Work | Publication |
-|:---|:---|
-| [EV Lithium-Ion Battery SOH Estimation Based on LightGBM Model](https://doi.org/10.1007/978-981-97-8160-7_6) | Springer Nature, *Intelligent Systems / ICMIB 2024 proceedings* (2025) |
-| [The Fitness Tracker Band](https://doi.org/10.1063/5.0291757) | AIP Conference Proceedings (2025) |
-| [Sun Flora: Dual Axis Solar Tracker Using 8051 in Assembly Language](https://doi.org/10.56726/IRJMETS46906) | IRJMETS (2023) |
-
-**Granted patent listed in my CV:** “A System and Method for Calculation of State of Health of Li-Ion Battery” (SA Patents, 2024; registry record not yet linked).
 
 ## Experience
 
-| Role | What I worked on |
-|:---|:---|
-| **Philips India Limited** · Image Guided Therapy R&D apprentice/intern · Apr 2024–Jun 2025 | Battery diagnostic proof of concept, data logging, diagnostic automation, and production fault investigation |
-| **Nitya Innovations LLP** · Data Analyst Intern · Jan–Jun 2024 | EV battery SOH data preparation, feature engineering, and XGBoost/LightGBM modelling |
-| **Bunnyfied Labs Pvt. Ltd.** · Junior Data Analyst & ML Developer · Apr 2023–Jan 2024 | Résumé-to-job matching prototype, Power BI dashboards, and reporting automation |
+<details open>
+<summary><b>Philips India Limited · Apprentice / Intern, Image Guided Therapy</b> — Apr 2024–Jun 2025</summary>
+
+**Healthcare R&D · Pune · full-time, on-site**
+
+- Developed and validated a battery-health diagnostic proof of concept for Energy Storage Units.
+- Built a prototype data-logging and analysis tool and automated manual diagnostic steps.
+- Supported production-fault root-cause analysis and shared findings with R&D and production teams.
+
+</details>
 
 <details>
-<summary><strong>Education and tools</strong></summary>
+<summary><b>Nitya Innovations LLP · Data Analyst Intern</b> — Jan–Jun 2024</summary>
 
-**Education**
+**Pune · remote, project-based**
 
-- GISMA University of Applied Sciences, Berlin — MSc Data Science, AI & Digital Business + MSc International Business Management (2025–2027)
-- Vishwakarma Institute of Information Technology, Pune — BTech Electronics & Telecommunication Engineering (2024)
-- Cusrow Wadia Institute of Technology, Pune — Diploma in Electronics & Telecommunication Engineering (2021)
+- Developed an EV battery State of Health prediction workflow with data cleaning and feature engineering.
+- Trained and tuned XGBoost and LightGBM models in Python.
+- Contributed research and methodological documentation on lithium-ion battery analysis.
 
-**Tools I have used**
+</details>
 
-- **Data and ML:** Python, SQL, pandas, NumPy, scikit-learn, TensorFlow/Keras, PyTorch, XGBoost, LightGBM
-- **Analysis and communication:** Power BI, Plotly, matplotlib, seaborn, Excel
-- **Engineering:** MATLAB, Arduino, ESP8266, Raspberry Pi, Firebase
-- **NLP:** TF-IDF, sentence embeddings, Hugging Face models, LLM APIs
+<details>
+<summary><b>Bunnyfied Labs · Jr. Data Analyst & Machine Learning Developer</b> — Apr 2023–Jan 2024</summary>
+
+**Mumbai · freelance, part-time, remote**
+
+- Built a resume-to-job matching prototype using TF-IDF and cosine similarity.
+- Created Power BI prototype dashboards for booking, user and payment KPIs.
+- Cleaned client data and automated recurring reports in Python.
+
+</details>
+
+## Toolkit
+
+| Area | Tools and methods |
+| :--- | :--- |
+| **Data analysis** | Python · pandas · NumPy · SQL · Excel |
+| **Machine learning** | scikit-learn · XGBoost · LightGBM · feature engineering |
+| **Deep learning & NLP** | PyTorch · TensorFlow/Keras · Hugging Face · BART · TF-IDF |
+| **Visualisation & BI** | Plotly · Matplotlib · Power BI |
+| **Engineering & embedded systems** | MATLAB · ESP controllers · Firebase · 8051 assembly |
+
+<details>
+<summary><b>Education</b></summary>
+
+- **GISMA University of Applied Sciences, Berlin** — M.Sc. Data Science, AI & Digital Business + M.Sc. International Business Management, **2025–2027 (in progress)**.
+- **Vishwakarma Institute of Information Technology, Pune** — B.Tech Electronics & Telecommunication Engineering, **2021–2024** · CGPA **9.19**.
+- **Cusrow Wadia Institute of Technology, Pune** — Diploma Electronics & Telecommunication Engineering, **2019–2021** · **96.94%**.
+
+</details>
+
+<details>
+<summary><b>Hackathons & recognition</b></summary>
+
+**Huawei TechArena 2026 — Nuremberg, Digital Power / CellScale**  
+Worked on LFP cell State of Health trajectories and end-of-life prediction from cycling time-series data; qualified for the on-site ceremony.
+
+**Huawei TechArena 2026 — Munich, 3D-Matters, team entry**  
+Worked on anatomical ear-landmark extraction from 3D head scans using a DiffusionNet ensemble and anatomical post-processing.
+
+- **Aavishkar 2023–24:** qualified for the SPPU University Research Competition.
+- **PROTECH 2020:** first place, project competition, Symbiosis Institute of Technology.
+- **Persona Fest 2020:** second place, Glider Design & RC Aircraft Flying, MIT Pune.
 
 </details>
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/mayurmore0812) · [Email](mailto:mayurmore0812@gmail.com) · [GitHub](https://github.com/mayurmore0812)
+Interested in applied ML, battery analytics, research or data storytelling? Let's connect.
 
-<sub>Project descriptions cover academic and prototype work. Source files will be added to the project repositories when they are ready to share.</sub>
+**[LinkedIn ↗](https://www.linkedin.com/in/mayurmore0812)** · **[Email ↗](mailto:mayurmore0812@gmail.com)** · **[All repositories ↗](https://github.com/mayurmore0812?tab=repositories)**
+
+<p align="right"><a href="#hi-im-mayur">Back to top ↑</a></p>
